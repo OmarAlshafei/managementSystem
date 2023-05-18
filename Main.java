@@ -9,7 +9,7 @@ import java.io.PrintWriter;
 import java.time.format.DateTimeFormatter;
 import java.time.LocalDateTime;  
 
-public class Project2 {
+public class Main {
 	
 	private static int readMenu() {
 		Scanner sc = new Scanner(System.in);
@@ -333,14 +333,14 @@ public class Project2 {
 			}
 			
 			else if(input == 3) {
-				System.out.print("Enter the student’s is: ");
+				System.out.print("Enter the student's is: ");
 				id = sc.nextLine();
 				personnel.printInfo(id, input);
 				
 			}
 			
 			else if(input == 4) {
-				System.out.print("Enter the Faculty’s id: ");
+				System.out.print("Enter the Faculty's id: ");
 				id = sc.nextLine();
 				personnel.printInfo(id, input);
 			}
@@ -364,7 +364,7 @@ public class Project2 {
 			}
 			
 			else if(input == 6) {
-				System.out.print("Enter the Staff’s id: ");
+				System.out.print("Enter the Staff's id: ");
 				id = sc.nextLine();
 				personnel.printInfo(id, input);
 			}
