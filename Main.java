@@ -1,5 +1,6 @@
 // Omar Alshafei
 // Human Resource Managment System
+// 11/10/2022
 
 import java.util.*;
 import java.lang.*;
@@ -182,7 +183,7 @@ public class Main {
 			gpa = Double.parseDouble(str);
 		}
 		catch(Exception e) {
-			System.out.println("\tUsing defaul GPA, 0.0");
+			System.out.println("\tUsing default GPA, 0.0");
 			gpa = 0.0;
 		}
 		
@@ -192,7 +193,7 @@ public class Main {
 			credit = Integer.parseInt(str);
 		}
 		catch(Exception e) {
-			System.out.println("\tUsing defaul Credit hours, 0");
+			System.out.println("\tUsing default credit hours, 0");
 			credit = 0;
 		}
 		
@@ -676,7 +677,7 @@ class Personnel {
 				System.out.println("No faculty matched! \n");
 			
 			if(flag == 6)
-				System.out.println("No Staff member matched! \n");
+				System.out.println("No staff member matched! \n");
 		}
 		
 		else 
