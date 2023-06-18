@@ -2,6 +2,10 @@
 
 The Human Resource Management System is a Java-based program that allows users to manage and store information about faculty, students, and staff members. It provides various functionalities such as adding and printing information, generating tuition invoices for students, and generating reports.
 
+## Author
+
+Omar Alshafei
+
 ## Getting Started
 
 To run the program, follow these steps:
@@ -33,5 +37,3 @@ Upon launching the program, you will be presented with a menu where you can sele
 5. Enter the information of a staff member: Allows you to add details about a staff member, including their name, ID, position, and department.
 6. Print the information of a staff member: Displays the information of a specific staff member, including their name, ID, position, and department.
 7. Exit the program: Terminates the program and closes the application.
-
-Feel free to explore the functionalities of the Human Resource Management System and utilize its features to manage and organize information effectively.
