@@ -4,7 +4,7 @@ The Human Resource Management System is a Java-based program that allows users t
 
 ## Author
 
-Omar Alshafei
+This project is created by Omar Alshafei.
 
 ## Getting Started
 
